@@ -42,32 +42,3 @@ def sortari(car_count):
 sortari(character_count())
 #main()
 #word_count()
-
-# Sort function with turples... should have thought about that:
-    # def sortari(car_count):
-    # # Filter only alphabetic characters and sort directly as a list of tuples
-    # sorted_characters = sorted(
-    #     [(char, count) for char, count in car_count.items() if char.isalpha()],
-    #     key=lambda x: x[1],
-    #     reverse=True
-    # )
-
-    # print("--- Begin report of books/frankenstein.txt ---")
-    # print("77986 words found in the document")
-    # print("")
-    # for char, count in sorted_characters:
-    #     print(f"The '{char}' character was found {count} times")
-    # print("--- End report ---")
-
-    # Step 1: Filter only alphabetic characters from car_count - this is the above a bit more readable.
-    # filtered_characters = []
-    # for char, count in car_count.items():
-    #     if char.isalpha():
-    #         filtered_characters.append((char, count))
-
-    # # Step 2: Sort the filtered characters by their count in descending order
-    # sorted_characters = sorted(filtered_characters, key=lambda x: x[1], reverse=True)
-
-    # # Step 3: Loop through the sorted list and do something (e.g., print results)
-    # for char, count in sorted_characters:
-    #     print(f"The '{char}' character was found {count} times")
